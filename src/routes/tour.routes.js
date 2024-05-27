@@ -3,7 +3,7 @@ import {addEmployee, endTour, removeEmployee, startTour,getOpenTour,getOpenTourB
 
 const router = Router();
 router.post('/tours',startTour )
-router.post('tours/externalTours/:employee_id',startExternalTour)
+router.post('/tours/externalTours/:employee_id',startExternalTour)
 router.put('/tours',endTour )
 router.post('/tourDetail',addEmployee )
 router.get('/tours/openTour/:veicle_route_id',getOpenTour)

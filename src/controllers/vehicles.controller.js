@@ -15,10 +15,12 @@ export const getVehicles = async (req, res) => {
     const { route_id } = req.params;
     try {
       const [rows] = await pool.query(`select 
-                                          * 
+                                          v.vehicle_id,
+                                          v.licence_plate,
+                                          v.model_id
                                        from vehicles v
-                                       inner join vehicles_routes vr on v.vehicle_id = vr.vehicle_id 
-                                      where vr.route_id = ? and v.active = 1`,[route_id]);
+                                       inner join routes r on r.route_id  = v.route_id 
+                                       where r.route_id = ? and v.active = 1`,[route_id]);
       res.json(rows);
     } catch (error) {
       return res.status(500).json({ message: "Something goes wrong" + error.message });
