@@ -1,0 +1,127 @@
+{
+  "configVersion": 1,
+  "timestamp": 1716705189144,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/484.2db6b51c1fcf301d.js",
+        "/896.67d7be077df60fad.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.fbaca375b9ce669c.js",
+        "/manifest.webmanifest",
+        "/polyfills.da7e87530673e35a.js",
+        "/runtime.7d026ad8acb00914.js",
+        "/scripts.0e238005481e2552.js",
+        "/styles.5c4b11f073d924e3.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/icons/icons8-catalog-26.png",
+        "/assets/icons/icons8-close-20.png",
+        "/assets/icons/icons8-close-40.png",
+        "/assets/icons/icons8-co2-26.png",
+        "/assets/icons/icons8-co2-emissions-26.png",
+        "/assets/icons/icons8-download-file-48.png",
+        "/assets/icons/icons8-employee-26.png",
+        "/assets/icons/icons8-fuel-26.png",
+        "/assets/icons/icons8-home-26.png",
+        "/assets/icons/icons8-menu-40.png",
+        "/assets/icons/icons8-model-26.png",
+        "/assets/icons/icons8-path-16.png",
+        "/assets/icons/icons8-path-26.png",
+        "/assets/icons/icons8-path-80.png",
+        "/assets/icons/icons8-place-26.png",
+        "/assets/icons/icons8-reports-26.png",
+        "/assets/icons/icons8-route-26.png",
+        "/assets/icons/icons8-start-route-26.png",
+        "/assets/icons/icons8-tour-26.png",
+        "/assets/icons/icons8-vehicle-26.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/484.2db6b51c1fcf301d.js": "8e534a4e8493716a500cdc2686be22f8f45cec64",
+    "/896.67d7be077df60fad.js": "b08c30c0b5fa51e8457dd336e76f51d0ecde78ae",
+    "/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/assets/icons/icons8-catalog-26.png": "5723f8df2ddabe745120062432cc513fe5493786",
+    "/assets/icons/icons8-close-20.png": "ac7f2f2c93cfce26fd53f83d727656d70da1a326",
+    "/assets/icons/icons8-close-40.png": "39631a65df9839e2bbee56e304708378e52506e4",
+    "/assets/icons/icons8-co2-26.png": "8bf9099f9bde06c4b04d3313ac30dccfe8650523",
+    "/assets/icons/icons8-co2-emissions-26.png": "e67f78b0fe3cd493023216326865aa69c1e8bc49",
+    "/assets/icons/icons8-download-file-48.png": "479cfe56b98994c4127c63d6ec587781f8110a2c",
+    "/assets/icons/icons8-employee-26.png": "cbc9a01559ed38307be4332f72c0149e36325c0f",
+    "/assets/icons/icons8-fuel-26.png": "e583ff3e794fab9b97183bf96c5a27658546cc69",
+    "/assets/icons/icons8-home-26.png": "ade09e363a56ab8fea3ba1acc6777c0705ebb094",
+    "/assets/icons/icons8-menu-40.png": "93777aa0e82890a3f6796e21955eb33bfc18a614",
+    "/assets/icons/icons8-model-26.png": "dbac131c9de22cb42bc3555fbf78ff41c3864fb8",
+    "/assets/icons/icons8-path-16.png": "4b32dd11d015c49a5fd0d3fb42753383dc0d058d",
+    "/assets/icons/icons8-path-26.png": "66a3f39f85ed7baecf658ad4199fb7ebe186e067",
+    "/assets/icons/icons8-path-80.png": "b2400db7c9cf6f1a8d367eabac88d1fa48b9eca5",
+    "/assets/icons/icons8-place-26.png": "97e601ee57a9c3104f09b68f9e29a25ed1972ad8",
+    "/assets/icons/icons8-reports-26.png": "11f2f7444b87aced7a3e8721070808926641fd8a",
+    "/assets/icons/icons8-route-26.png": "f134ebcdd065f77b0d94e6e8f97993ddb71834bd",
+    "/assets/icons/icons8-start-route-26.png": "7df5cb2d110e4814078d6f2ab2bbcfea998dcd63",
+    "/assets/icons/icons8-tour-26.png": "8a123c30881238058b47c18785cf332b04b44df0",
+    "/assets/icons/icons8-vehicle-26.png": "16c9abb0cc13de2aa475e17c3c4c144735359bdf",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "aef254a1c577f7d42706639ccab176c67dc9695e",
+    "/main.fbaca375b9ce669c.js": "17aeb172d7421492e1dda19cbd08bc3604de2cbe",
+    "/manifest.webmanifest": "829100e58d6f850d5c5397e0890df40cbb030ab2",
+    "/polyfills.da7e87530673e35a.js": "f5ab880cce1f4b04ac2f1712b62326658672a798",
+    "/runtime.7d026ad8acb00914.js": "99bf1bd8d97439f33175616ecf1ee62f733c31d2",
+    "/scripts.0e238005481e2552.js": "86040dbc14654dd0b770e5e49019c5055d5a93f4",
+    "/styles.5c4b11f073d924e3.css": "24237769f1c3ddde6821a47afd6a21db6c772421"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
