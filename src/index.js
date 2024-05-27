@@ -29,7 +29,7 @@ app.use(tourRoute);
 app.use(reportsRoute);
 
 
-port = 3000;
+port = process.env.PORT || 3000;
 
 app.listen(port);
 
