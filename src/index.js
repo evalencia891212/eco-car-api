@@ -34,18 +34,3 @@ let port = process.env.PORT || 3000;
 app.listen(port);
 
 console.log('Server listen on port 3000');
-
-//const webApp = express();
-
-//const path = '/usr/dev/Caso Practico/eco-car-api/src/views/';
-//const path = __dirname + '/views/';
-//webApp.use(express.static(path));
-
-//webApp.get('/', (req, res) => {
-//    console.log(path + 'index.html')
-//    res.sendFile(path + 'index.html');
-//});
-
-//webApp.listen(4200)
-
-//console.log('views listen on port 4200');
