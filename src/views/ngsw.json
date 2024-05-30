@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1716705189144,
+  "timestamp": 1717039961448,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -15,7 +15,7 @@
         "/896.67d7be077df60fad.js",
         "/favicon.ico",
         "/index.html",
-        "/main.fbaca375b9ce669c.js",
+        "/main.13d0bc316b828fcf.js",
         "/manifest.webmanifest",
         "/polyfills.da7e87530673e35a.js",
         "/runtime.7d026ad8acb00914.js",
@@ -97,8 +97,8 @@
     "/assets/icons/icons8-tour-26.png": "8a123c30881238058b47c18785cf332b04b44df0",
     "/assets/icons/icons8-vehicle-26.png": "16c9abb0cc13de2aa475e17c3c4c144735359bdf",
     "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/index.html": "aef254a1c577f7d42706639ccab176c67dc9695e",
-    "/main.fbaca375b9ce669c.js": "17aeb172d7421492e1dda19cbd08bc3604de2cbe",
+    "/index.html": "bc9679735f9f1608732668fffc19a98a8f0ed841",
+    "/main.13d0bc316b828fcf.js": "a20d0b5d94b033c3f895f37834f23896670a6d65",
     "/manifest.webmanifest": "829100e58d6f850d5c5397e0890df40cbb030ab2",
     "/polyfills.da7e87530673e35a.js": "f5ab880cce1f4b04ac2f1712b62326658672a798",
     "/runtime.7d026ad8acb00914.js": "99bf1bd8d97439f33175616ecf1ee62f733c31d2",
