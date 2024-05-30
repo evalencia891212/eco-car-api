@@ -89,15 +89,14 @@ export const getStations = async (req, res) => {
       const { station_id } = req.params;
       const { station_name, location, marker_type,course,check_in} = req.body;
 
-      const [result] = await pool.query(
-        'UPDATE stations SET station_name = IFNULL(?, station_name), '
-        + 'location = IFNULL(?, location)' 
-        + 'marker_type = IFNULL(?, marker_type)'
-        + 'course = IFNULL=(?,course)'
-        + 'check_in = IFNULL=(?,check_in)'
-        + ' active = 1 '
-        + '  WHERE station_id = ?',
-        [station_name, location, marker_type,course,check_in, station_id]
+    
+
+      var query =  `UPDATE stations
+                      SET station_name=IFNULL(?, station_name), check_in=IFNULL(?, check_in)
+                    WHERE station_id=?`
+      console.log(query);
+      const [result] = await pool.query(query,
+        [station_name,check_in, station_id]
       );
 
     
