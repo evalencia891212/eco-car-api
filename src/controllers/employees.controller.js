@@ -221,7 +221,9 @@ export const getEmployees = async (req, res) => {
     try {
 
       var query = `select 
-                    e.*
+                    e.employee_id,
+                    e.employee_number,
+                    concat(e.name,' ',e.last_name) as employee_name
                   from employees e 
                   where e.user_id  = ?`
       const [rows] = await pool.query(query,[user_id]);

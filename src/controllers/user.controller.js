@@ -10,6 +10,41 @@ export const getUser = async (req, res) => {
     }
   };
 
+  export const getUserByEmployeeId = async (req,res) => {
+    console.log("Begin functions")
+    const { employee_id } = req.params;
+    try {
+      console.log("Begin Query")
+      const [rows] = await pool.query(`select u.* from employees e 
+                                      inner join users u on e.user_id = u.user_id 
+                                     where e.employee_id = ?`,[employee_id]);
+      console.log(rows)                               
+      res.json(rows);
+    } catch (error) {
+      return res.status(500).json({ message: error.message });
+    }
+  }
+
+  export const updateUser= async (req,res) => {
+   try {
+     const {user_id , user_name, password , typer_id} = req.body;
+     var query =  `UPDATE users
+                      SET user_name=IFNULL(?, user_name), password=IFNULL(?, password), typer_id=IFNULL(?, typer_id)
+                    WHERE user_id=?`
+
+    console.log(query);
+    const [result] = await pool.query(query,
+          [user_name, password , typer_id, user_id]);
+      
+    res.json({data:result,message:"ok"})
+          
+   } catch (error) {
+    console.log(error.message);
+    return res.status(500).json({ message: "Something goes wrong: " + error.message });
+   } 
+  
+  }
+
   export const createUser = async (req, res) => {
     try {
       const { employee_id } = req.params;
